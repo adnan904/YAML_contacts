@@ -18,6 +18,13 @@ or Download the repository from GitHub and then run the command:
 python setup.py install
 ```
 
+**On Ubuntu use the following command (after making sure pip3 is installed):**
+
+```
+sudo python3 setup.py install
+```
+
+
 ### Usage
 
 A contact has the following attributes:
