@@ -18,7 +18,7 @@ or Download the repository from GitHub and then run the command:
 python setup.py install
 ```
 
-**On Ubuntu use the following command (after making sure pip3 is installed):**
+**On Ubuntu use the following command (after making sure pip3 is installed, which will also install setuptools):**
 
 ```
 sudo python3 setup.py install
@@ -37,7 +37,7 @@ The Tool right now supports the following functionality:
 
 1. **Adding a contact**
     ```
-    pycontacts --add Name --number 1234 --email abc@xyz.com 
+    pycontacts --add "Name" --number 1234 --email abc@xyz.com 
    ```
     - name , number & email are mandatory fields
     - name can be only Lowercase and Uppercase alphabets
@@ -49,12 +49,12 @@ The Tool right now supports the following functionality:
       
    **Address** can also be added to a contact using the command:
     ```
-    pycontacts --add Name --number 1234 --email abc@xyz.com --address Address
+    pycontacts --add "Name" --number 1234 --email abc@xyz.com --address "Address"
    ```
 
 2. **Showing a contact**
     ```
-    pycontacts --show Name  
+    pycontacts --show "Name"  
     ```
       - Displays all the contacts with name = *Name* (if any exists)
 
