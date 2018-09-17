@@ -20,7 +20,7 @@ python setup.py install
 
 ### Usage
 
-A contact has 3 attributes:
+A contact has the following attributes:
 - name
 - number
 - email
